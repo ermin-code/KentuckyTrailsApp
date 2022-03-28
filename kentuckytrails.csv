@@ -1,0 +1,329 @@
+trail_name,county,trail_length,latitude,longitude,maintenance,color,hov_txt
+Spur to Lake,Trigg County,0.1,36.84776,-87.92855,Good,green,<br>Trail Name: Spur to Lake <br>Description: Spur that goes down to the Lake.
+Wilderness Loop,Laurel County,1.3,37.08004,-84.04171,Poor,red,"<br>Trail Name: Wilderness Loop <br>Description: Overgrown, hard to follow."
+Private Trail,Laurel County,0.6,37.08027,-84.03695,Good,green,<br>Trail Name: Private Trail <br>Description: Private trail  used by 4H.
+Big Bone Creek,Boone County,?,38.88378,-84.75302,,,<br>Trail Name: Big Bone Creek <br>Description: ?
+Connector,Jefferson County,1.25,38.27873,-85.56337,Good,green,<br>Trail Name: Connector <br>Description: Leads through the woods off the Fitness Loop trail; passes near a small creek.
+Goose Creek,Jefferson County,1.25,38.27964,-85.56452,Good,green,<br>Trail Name: Goose Creek <br>Description: Leads through the woods off the Fitness Loop trail; passes near a small creek.
+Vernal Pond,Jefferson County,?,38.27792,-85.55352,,,<br>Trail Name: Vernal Pond <br>Description: ?
+Connector,Jefferson County,?,38.27604,-85.55824,,,<br>Trail Name: Connector <br>Description: ?
+Boy Scout,Carroll County,0.25,38.67077,-85.16196,Good,green,<br>Trail Name: Boy Scout <br>Description: Short hike descending from Fossil trail to Butler Mansion.
+Connector,Boone County,?,38.87994,-84.75203,,,<br>Trail Name: Connector <br>Description: ?
+Cane,Christian County,1,37.0657,-87.66528,Good,green,<br>Trail Name: Cane <br>Description: 
+Lake/Ivy Connector,Harlan County, ,36.99042,-82.98762,Good,green,<br>Trail Name: Lake/Ivy Connector <br>Description: Connects Ivy & Lake trails
+Buffalo to Heritage Connector,Robertson County,0.1,38.4302,-83.9925,Good,green,<br>Trail Name: Buffalo to Heritage Connector <br>Description: Connector across the highway.
+Campground Connector,Robertson County,0.1,38.4263,-83.99475,Good,green,<br>Trail Name: Campground Connector <br>Description: Connects campground with Savannah Loop.
+"Cabin Connection, Folklore",Grayson County,0.7,37.61853,-86.50442,Fair,orange,"<br>Trail Name: Cabin Connection, Folklore <br>Description: Leads to a cabin in the woods."
+Folklore,Grayson County,0.9,37.61804,-86.50362,Fair,orange,<br>Trail Name: Folklore <br>Description: Needs markings for junctions.
+Marina,Grayson County,0.8,37.60271,-86.50743,Fair,orange,<br>Trail Name: Marina <br>Description: Follows along lakeshore behind cabins and leads to lodge.
+Spur to lakefront behind Lodge,Grayson County,0.1,37.60971,-86.50333,Fair,orange,"<br>Trail Name: Spur to lakefront behind Lodge <br>Description: Not a maintained trail, probably user created trail."
+Spur to lake from Marina Trail,Grayson County,0.1,37.60219,-86.50732,Fair,orange,<br>Trail Name: Spur to lake from Marina Trail <br>Description: Short spur to lake.
+Cedar Run,Boone County,0.5,38.88032,-84.74608,Good,green,<br>Trail Name: Cedar Run <br>Description: Loop trail from Gobblers Trace to the campground.
+Monument,Robertson County,0.1,38.43363,-83.99286,Good,green,<br>Trail Name: Monument <br>Description: Leads to monument.
+Buffalo Trace,Robertson County,0.2,38.43171,-83.99298,Good,green,<br>Trail Name: Buffalo Trace <br>Description: From Museum to Campground.
+Heritage,Nicholas County,2.75,38.42736,-83.99223,Good,green,<br>Trail Name: Heritage <br>Description: Winds along field edge past an old fort and also passes the original site of Arlington Hotel.
+Savannah Loop,Robertson County,0.25,38.42737,-83.99559,Good,green,<br>Trail Name: Savannah Loop <br>Description: Small loop with campground and Heritage Trail connections.
+Licking River,Robertson County,1,38.42868,-83.99315,Good,green,<br>Trail Name: Licking River <br>Description: Follows along the Licking River and connects with the campsite and nature center.
+Wilderness Road,Laurel County,0.7,37.07402,-84.03909,Good,green,<br>Trail Name: Wilderness Road <br>Description: From Wilderness Loop to Freeman Cemetary and 4H Trail.
+Coralberry Connector,Boone County,0.1,38.87843,-84.74455,Good,green,<br>Trail Name: Coralberry Connector <br>Description: Connects Coralberry and campground.
+Indian Run,Robertson County,0.75,38.43447,-83.99669,Good,green,<br>Trail Name: Indian Run <br>Description: Short loop trail near the river and cabins.
+Frazier Knob,Laurel County,2.2,37.08583,-84.04329,Fair,orange,<br>Trail Name: Frazier Knob <br>Description: Fairly strenuous trail that leads to a knob for scenic views.
+Butler Lake,Carroll County,1.25,38.66755,-85.14945,Fair,orange,"<br>Trail Name: Butler Lake <br>Description: Built by local Boyscouts follows lake shore, many footbridges."
+Woodland,Carroll County,1.5,38.67524,-85.15378,Good,green,<br>Trail Name: Woodland <br>Description: Out and back loop from campground to Lodge.
+Cemetary Path,Carroll County,0.1,38.66922,-85.1651,Good,green,<br>Trail Name: Cemetary Path <br>Description: Short path to Cemetery.
+Blue Springs,Trigg County,1.3,36.84779,-87.93322,Good,green,<br>Trail Name: Blue Springs <br>Description: Trails goes to a wildlife viewing area that is a great place to observe the wildlife.
+Fitness Center,Trigg County,0.1,36.84893,-87.93411,Good,green,<br>Trail Name: Fitness Center <br>Description: From Lodge to Fitness Center.
+Lena Madesin Phillips,Trigg County,0.6,36.84927,-87.93054,Good,green,<br>Trail Name: Lena Madesin Phillips <br>Description: Trail that meanders through the lakeshore woodlands.
+Renegade,Floyd County,?,37.69303,-82.72257,Fair,orange,<br>Trail Name: Renegade <br>Description:  
+Moss Ridge,Floyd County,1.3,37.6926,-82.72432,Good,green,<br>Trail Name: Moss Ridge <br>Description: Moderately difficult trail the passes a cemetary.
+Jenny Wiley,Floyd County,4.5,37.69408,-82.7279,Good,green,<br>Trail Name: Jenny Wiley <br>Description: Very strenuous trail that follows the ridge tops with some views of the surrouding lands.
+Fitness Loop,Jefferson County,1,38.28089,-85.55741,Good,green,<br>Trail Name: Fitness Loop <br>Description: Gravel loop used for jogging.
+Renegade,Pendleton County,x,38.71524,-84.28251,Good,green,<br>Trail Name: Renegade <br>Description:  
+Eagle Glen Pet,Henderson County,0.4,37.88373,-87.55852,Fair,orange,<br>Trail Name: Eagle Glen Pet <br>Description: Loop hike with obstructive views of the ohio r.
+King Benson,Henderson County,0.1,37.88229,-87.55729,Fair,orange,<br>Trail Name: King Benson <br>Description: Interpretative signs of park history.
+Wilderness Lake,Henderson County,1,37.88171,-87.55286,Fair,orange,<br>Trail Name: Wilderness Lake <br>Description: Main focus on the wildlife viewing oppurtunites on the lake.
+Warbler Rd.,Henderson County,0.5,37.88205,-87.54884,Fair,orange,"<br>Trail Name: Warbler Rd. <br>Description: Open to foot travel, 20 species of warbler birds viewable."
+Deer Ridge,Henderson County,0.4,37.88366,-87.55229,Fair,orange,<br>Trail Name: Deer Ridge <br>Description: Walk along ridge via connection to interior trails.
+Holley Homesite,Madison County,DDF,37.89664,-84.2684,Good,green,<br>Trail Name: Holley Homesite <br>Description: Holley Homsite trail leads to p.lot.
+Fort ,Madison County,DDF,37.89552,-84.26849,Good,green,<br>Trail Name: Fort  <br>Description: Trail from fort P.lot to shelter 4.
+Connectors,Boyle County,Varies,37.66445,-84.96245,Good,green,<br>Trail Name: Connectors <br>Description: Traces routes used during the Battle of Perryville.
+Parson,Boyle County,0.3,37.6737,-84.9714,Good,green,<br>Trail Name: Parson <br>Description: Traces routes used during the Battle of Perryville.
+Old Mackville Rd.,Boyle County,0.3,37.66928,-84.98173,Good,green,<br>Trail Name: Old Mackville Rd. <br>Description: Traces routes used during the Battle of Perryville.
+Webster,Boyle County,0.5,37.67088,-84.98063,Good,green,<br>Trail Name: Webster <br>Description: Traces routes used during the Battle of Perryville.
+Jones,Boyle County,0.4,37.66823,-84.97222,Good,green,<br>Trail Name: Jones <br>Description: Traces routes used during the Battle of Perryville.
+Horse Trail,Marshall County,1,36.98164,-88.28735,Good,green,<br>Trail Name: Horse Trail <br>Description: 45 minute ride in the woods next to Kentucky Lake.
+Trench Trail,Hickman County,0.5,36.76658,-89.11095,Good,green,<br>Trail Name: Trench Trail <br>Description: Easy trail that follows a Civil War trench.
+Campers Path,Cumberland County,0.2,36.6549,-85.28579,Good,green,<br>Trail Name: Campers Path <br>Description: Leads through the woods from one side of the campground to the other.
+Baugh Branch Trail,Russell County,1.6,36.90153,-85.07476,Good,green,<br>Trail Name: Baugh Branch Trail <br>Description: Trail meanders through the woods to a scenic overlook of the lake.
+Trail to Store,Russell County,?,36.9219,-85.04207,Good,green,<br>Trail Name: Trail to Store <br>Description: Trail leads up the hill the Grocery Store in the Park.
+Henson's Arch,Powell County,0.25,37.77985,-83.67369,Good,green,<br>Trail Name: Henson's Arch <br>Description: Meandered up a hill through the woods to Henson's Arch.
+Natural Bridge,Powell County,?,37.77293,-83.68471,Good,green,<br>Trail Name: Natural Bridge <br>Description: Went out along the top of Natural Bridge.
+Laurel Ridge,Powell County,0.75,37.77344,-83.68589,Good,green,<br>Trail Name: Laurel Ridge <br>Description: Went along the ridge top to a scenic view of Natural Bridge.
+Fossil,Carroll County,4.5,38.67016,-85.16181,Good,green,<br>Trail Name: Fossil <br>Description: Minor grades traverse the old ski slopes. 
+Lena Madison Phillips,Barren County,1,36.84943,-86.06111,Good,green,<br>Trail Name: Lena Madison Phillips <br>Description: Short loop hike through second grove forest
+Connell,Barren County,1,36.86143,-86.07121,Good,green,<br>Trail Name: Connell <br>Description: Short loop hike through second grove forest
+Bicycle,Barren County,2.5,36.85512,-86.05634,Good,green,<br>Trail Name: Bicycle <br>Description: Trail meanders in and around golf course
+Beech Hemlock,Carter County,0.8,38.19918,-83.02413,Fair,orange,<br>Trail Name: Beech Hemlock <br>Description: Wanders through the woods next to lake.
+Renegade,Carter County,?,38.19887,-83.0242,Fair,orange,<br>Trail Name: Renegade <br>Description: Short spur to lake.
+Lick Falls Loop,Carter County,3,38.20031,-83.0304,Fair,orange,<br>Trail Name: Lick Falls Loop <br>Description: Loop trail that goes next to the lake and through the golf course
+Lick Falls Loop Connector,Carter County,?,38.20167,-83.03078,Fair,orange,<br>Trail Name: Lick Falls Loop Connector <br>Description: Connection to Lick Falls Loop trail
+Waterfall Hiking Trail,Edmonson County,1.6,37.29802,-86.21326,Fair,orange,<br>Trail Name: Waterfall Hiking Trail <br>Description: Wanders through woods and loops around a waterfall.
+User Path,Edmonson County,?,37.29818,-86.21324,Poor,red,<br>Trail Name: User Path <br>Description: Meanders down to the lake.
+Horse Trail,Barren County,?,36.8587,-86.0624,Good,green,<br>Trail Name: Horse Trail <br>Description: Horse trail that wonders through the woods and along the lake.
+Tent Site Connector Trail,Edmonson County, ,37.2962,-86.21475,Good,green,<br>Trail Name: Tent Site Connector Trail <br>Description: Connects tent sites along the beach. 
+Stairway,Powell County,0.75,37.77711,-83.6805,Good,green,<br>Trail Name: Stairway <br>Description: Meadered up the hill to the lodge.
+Balanced Rock,Powell County,0.75,37.77154,-83.68306,Good,green,<br>Trail Name: Balanced Rock <br>Description: Fairly steep terrain that follows along a ridgetop and descends to the junction with Sand Gap Trail.
+Rock Garden,Powell County,1.75,37.77889,-83.68587,Good,green,<br>Trail Name: Rock Garden <br>Description: Meandered along the side of the ridge through the woods.
+Upper Hood's Branch,Powell County,0.75,37.76509,-83.69519,Good,green,<br>Trail Name: Upper Hood's Branch <br>Description: Meandered through the woods down to the skylift parking lot.
+Hood's Branch,Powell County,3,37.7688,-83.69278,Fair,orange,<br>Trail Name: Hood's Branch <br>Description: Made a loop through the woods and connected with Hood's Branch.
+Spice Bush Trail,Pendleton County,1,38.7214,-84.28041,Good,green,<br>Trail Name: Spice Bush Trail <br>Description: Leads through the woods and meaders near a small stream.
+Spur to Campground,Pendleton County,x,38.7234,-84.28231,Good,green,<br>Trail Name: Spur to Campground <br>Description:  
+Spur to Campground,Pendleton County,x,38.72374,-84.28217,Good,green,<br>Trail Name: Spur to Campground <br>Description:  
+Sassafras Trail,Floyd County,0.75,37.7147,-82.73915,Good,green,<br>Trail Name: Sassafras Trail <br>Description: Leads through the woods near the campground with some lake overlooks.
+Sassafras Spur,Floyd County,0.75,37.71491,-82.73955,Good,green,<br>Trail Name: Sassafras Spur <br>Description:  
+Switchback Loop,Floyd County,3,37.71665,-82.72525,Fair,orange,<br>Trail Name: Switchback Loop <br>Description: Mountain bike trails.
+Short Ridge,Cumberland County,0.5,36.63773,-85.30204,Fair,orange,<br>Trail Name: Short Ridge <br>Description: Short out and back from the Boom Ridge Trail.
+Brushy Ridge,Cumberland County,0.8,36.63453,-85.30351,Fair,orange,<br>Trail Name: Brushy Ridge <br>Description: Short out and back from the Boom Ridge Trail.
+Groce Ridge,Cumberland County,0.6,36.6307,-85.30386,Fair,orange,<br>Trail Name: Groce Ridge <br>Description: Short out and back from the Boom Ridge Trail.
+Buck Ridge,Cumberland County,0.2,36.62676,-85.30895,Fair,orange,<br>Trail Name: Buck Ridge <br>Description: Short out and back from the Boom Ridge Trail.
+Wolf Ridge,Cumberland County,0.7,36.62508,-85.31098,Fair,orange,<br>Trail Name: Wolf Ridge <br>Description: Short out and back from the Boom Ridge Trail.
+Eagle Point,Cumberland County,1.8,36.6388,-85.29128,Good,green,<br>Trail Name: Eagle Point <br>Description: Trail from the campground area that leads to a scenic view of Dale Hollow Lake and Trooper Island.
+Leatherwood ,Perry County,0.5,37.30657,-83.44431,Good,green,<br>Trail Name: Leatherwood  <br>Description: Short loop trail through the woods.
+Low Gap,Powell County,.25 ON TH & .5 ON MAP?,37.7812,-83.68801,Good,green,<br>Trail Name: Low Gap <br>Description: Follows an old logging road and connects to the Rock Garden Trail.
+Sand Gap,Powell County,7.5,37.78064,-83.69064,Good,green,<br>Trail Name: Sand Gap <br>Description: Follows an old logging road and is easy walking along the ridgetop and meanders through the valley.
+Whittleton Arch,Powell County,2,37.78271,-83.67295,Good,green,"<br>Trail Name: Whittleton Arch <br>Description: Meandered through the woods, along a creek and lead to a cave."
+Connector,Powell County,,37.77556,-83.68086,Good,green,<br>Trail Name: Connector <br>Description: Connects The Original and Balanced Rock
+Lake Bluff Hiking Trail,Russell County,4,36.9261,-85.03829,Good,green,<br>Trail Name: Lake Bluff Hiking Trail <br>Description: Trail wanders through the woods along different creeks and along the lake.
+Fern Valley Shortcut,Greenup County,?,38.48528,-82.87107,Good,green,<br>Trail Name: Fern Valley Shortcut <br>Description: Shortcut trail for Fern Valley.
+Marina Connector,Greenup County,?,38.4857,-82.88794,Good,green,<br>Trail Name: Marina Connector <br>Description: Connects to the Marina
+Log Rock Access,Harlan County,0.5,36.9908,-82.98216,Good,green,<br>Trail Name: Log Rock Access <br>Description: Trail meanders through the woods.
+Log Rock,Harlan County,0.5,36.99022,-82.98195,Good,green,<br>Trail Name: Log Rock <br>Description: Trail meanders through the woods.
+Ivy,Harlan County,0.6,36.99042,-82.98762,Good,green,<br>Trail Name: Ivy <br>Description: Trail meanders through the woods.
+Powerlines,Harlan County,0.25,36.99452,-82.98697,Good,green,<br>Trail Name: Powerlines <br>Description: Trail follows the powerlines down hill.
+Short Timer,Lawrence County,0.4,38.09622,-82.68941,Good,green,<br>Trail Name: Short Timer <br>Description: Wooded nature trail that extends through the campground area towards the Yatesville Lake.
+Haunted,Lawrence County,2,38.09828,-82.68779,Good,green,<br>Trail Name: Haunted <br>Description: Wooded nature trail that extends through the campground area towards the Yatesville Lake.
+Cut Through Between Campsites 17 & 20,Lawrence County,?,38.09903,-82.68387,Good,green,<br>Trail Name: Cut Through Between Campsites 17 & 20 <br>Description: A cut-through between campsites 17 and 20.
+R & R,Lawrence County,1,38.09755,-82.68426,Good,green,<br>Trail Name: R & R <br>Description: Wooded nature trail that extends through the campground area towards the Yatesville Lake.
+Hike-in Sites,Lawrence County,?,38.09657,-82.68586,Good,green,<br>Trail Name: Hike-in Sites <br>Description: Wooded nature trail that extends through the campground area towards the Yatesville Lake.
+Wildcat Ridge,Lawrence County,0.5,38.0964,-82.68578,Good,green,<br>Trail Name: Wildcat Ridge <br>Description: Wooded nature trail that extends through the campground area towards the Yatesville Lake.
+Blue,Lawrence County,2,38.09478,-82.68994,Good,green,<br>Trail Name: Blue <br>Description: Trail that meanders through the woods along the Yatesville Lake to an overlook.
+ADA,Lawrence County,?,38.12028,-82.68923,Good,green,<br>Trail Name: ADA <br>Description: A self interpretive nature trail.
+Needles Eye Staircase,Powell County,,37.77785,-83.68498,Good,green,<br>Trail Name: Needles Eye Staircase <br>Description: Connects Laurel Ridge to Battleship Rock Trail
+Devil's Gulch,Powell County,,37.77659,-83.68506,Good,green,<br>Trail Name: Devil's Gulch <br>Description: Connects Laurel Ridge and Battleship Rock trail
+The Original,Powell County,0.75,37.77374,-83.68519,Good,green,<br>Trail Name: The Original <br>Description: Meandered up the hill to Natural Bridge.
+The Original,Powell County,0.75,37.77552,-83.67822,Good,green,<br>Trail Name: The Original <br>Description: Meandered up the hill to Natural Bridge.
+Connector,Powell County,,37.77401,-83.68538,Good,green,<br>Trail Name: Connector <br>Description: Connector to Original Trail and Battleship Rock
+Cherokee,Marshall County,0.7,36.76034,-88.13974,Good,green,<br>Trail Name: Cherokee <br>Description: Trail goes through wooded terrain.
+RENEGADE FOLLOWS ELECTRIC LINE,Marshall County,?,36.76377,-88.13842,Good,green,<br>Trail Name: RENEGADE FOLLOWS ELECTRIC LINE <br>Description: Renegade trail that follows the powerlines.
+Lakeside Loop,Lawrence County,1.1,38.11676,-82.69457,Good,green,"<br>Trail Name: Lakeside Loop <br>Description: Rugged, wooded hiking trail."
+Lagoon Overlook Loop,Lawrence County,1,38.11721,-82.69686,Good,green,"<br>Trail Name: Lagoon Overlook Loop <br>Description: Rugged, wooded hiking trail."
+Connector,Lawrence County,0.5,38.11585,-82.69218,Good,green,"<br>Trail Name: Connector <br>Description: Rugged, wooded hiking trail."
+Horseshoe,Harlan County,?,36.99304,-82.97922,Good,green,<br>Trail Name: Horseshoe <br>Description: Short path to Upper Shelter.
+Longhunter,Bell County,0.2,36.74471,-83.7107,Good,green,<br>Trail Name: Longhunter <br>Description: Trail that goes to a great natural sandstone rock shelter called Longhunter Cave.
+Azalea,Bell County,0.5,36.74347,-83.70351,Good,green,<br>Trail Name: Azalea <br>Description: Trail goes along interesting sandstome bluffs that form small natural shelters.
+Timber Ridge,Bell County,0.75,36.7541,-83.70379,Good,green,<br>Trail Name: Timber Ridge <br>Description: Trail goes along a series of ridgeline sandstone bluffs that offer views of Pine Mountain.
+Rock Hotel,Bell County,2,36.75049,-83.71127,Good,green,<br>Trail Name: Rock Hotel <br>Description: Trail passes through a veritable rhododendron tunnel and it plummets to the bottom of a moist ravine.
+Ridgerunner/Fern Garden Connector,Bell County,2,36.74173,-83.73579,Good,green,<br>Trail Name: Ridgerunner/Fern Garden Connector <br>Description: A connector trail for Ridgerunner and Fern Garden.
+Chained Rock,Bell County,0.5,36.75354,-83.69773,Good,green,<br>Trail Name: Chained Rock <br>Description: Meandering trail up to chain rock.
+Turkey,Harlan County,0.25,36.99722,-82.98231,Good,green,<br>Trail Name: Turkey <br>Description: Trail meanders through the woods.
+Possum,Harlan County,0.24,36.99528,-82.98433,Good,green,<br>Trail Name: Possum <br>Description: Trail meanders through the woods.
+Lost,Bell County,0.5,36.7363,-83.73335,Good,green,<br>Trail Name: Lost <br>Description: A ravine forest trail that passes along massive sandstone outcroppings.
+Fern Garden,Bell County,0.5,36.73913,-83.73526,Good,green,<br>Trail Name: Fern Garden <br>Description: This trail explores the variations of plant communities and habitats that lie within the park.
+Clear Creek Hollow,Bell County,1.4,36.72817,-83.72767,Good,green,"<br>Trail Name: Clear Creek Hollow <br>Description: Follows and abandoned railroad grade, it parallels Clear Creek stream."
+Gorge Overlook ,McCreary County,0.1,36.84023,-84.34626,Good,green,<br>Trail Name: Gorge Overlook  <br>Description: Spur off Trail 9 that leads to a shelter overlooking the Cumberland River.
+Eagle Falls Trail,McCreary County,0.1,36.84335,-84.34426,Good,green,<br>Trail Name: Eagle Falls Trail <br>Description: Leads down several stairs and passes beside Cumberland River before arriving at Eagle Falls.
+No. 9,McCreary County,1.5,36.83683,-84.34559,Good,green,<br>Trail Name: No. 9 <br>Description: Trail 9 wanders beside the Cumberland River with two spurs; the Gorge Overlook and Eagle Falls.
+Connector to Trail 4,Whitley County,0.25,36.83783,-84.33827,Good,green,<br>Trail Name: Connector to Trail 4 <br>Description: From Water Plant area to trail 4.
+No. 6,Whitley County,0.5,36.83895,-84.339,Good,green,<br>Trail Name: No. 6 <br>Description: Leads from Lodge parking lot to Falls area.
+Sheltowee Trace,Whitley County,5,36.83665,-84.34077,Good,green,<br>Trail Name: Sheltowee Trace <br>Description: Connects the Cumberland Falls trail with the Visitors Center.
+Cumberland River,Whitley County,5,36.84402,-84.31642,Good,green,<br>Trail Name: Cumberland River <br>Description: Trail follows the river upstream amd then follows an old logging road.
+Fire Tower,Whitley County,?,36.84845,-84.32232,Good,green,<br>Trail Name: Fire Tower <br>Description: Short trail up to the fire tower.
+Moonbow,Whitley County,10.8,36.84149,-84.34214,Good,green,<br>Trail Name: Moonbow <br>Description: Trail begins at Cumberland Falls to the mouth of the Laurel River.
+No. 8,Whitley County,0.25,36.84179,-84.33439,Good,green,<br>Trail Name: No. 8 <br>Description: Connects with Trail 2.
+Anvil Branch,Whitley County,2.5,36.84403,-84.33765,Fair,orange,<br>Trail Name: Anvil Branch <br>Description: Trail with an abundance of spring wildflowers.
+Rock House,Whitley County,0.5,36.84314,-84.33777,Good,green,<br>Trail Name: Rock House <br>Description: Trail ascends a ridge and along a stream.
+No. 4,Whitley County,1,36.83886,-84.33841,Good,green,<br>Trail Name: No. 4 <br>Description: Loop trail around the Lodge.
+No. 5,Whitley County,0.5,36.84106,-84.32851,Good,green,<br>Trail Name: No. 5 <br>Description: Leads from campground to Trail 4 or 2
+Horse Trail,Whitley County,1.6,36.84097,-84.33534,Good,green,<br>Trail Name: Horse Trail <br>Description: Loop trail used for horseback riding business at the park.
+Lovers Leap,Whitley County,0.5,36.83911,-84.34381,Good,green,<br>Trail Name: Lovers Leap <br>Description: Lots of concrete walkways and staircases with overlooks of the river and falls.
+Blue Bend Loop,McCreary County,?,36.82807,-84.32868,Good,green,<br>Trail Name: Blue Bend Loop <br>Description: Trail goes uphill to a logging road and descends to the Cumberland River.
+Camp Branch,Dickenson County,0.7,37.27146,-82.29488,Good,green,<br>Trail Name: Camp Branch <br>Description: Trail that descends down hill along a creek and takes you down to the river.
+Lover's Leap,Dickenson County,?,37.28083,-82.28862,Good,green,<br>Trail Name: Lover's Leap <br>Description: Takes you to Lover's Leap.
+Mill Rock Point,Dickenson County,?,37.28293,-82.28857,Good,green,<br>Trail Name: Mill Rock Point <br>Description: Takes you to Mill Rock Point.
+Towers,Dickenson County,0.15,37.28544,-82.29109,Good,green,<br>Trail Name: Towers <br>Description: Trail goes through a mixed hardwood forest to The Towers Overlook.
+Lake,Dickenson County,0.5,37.28732,-82.29623,Good,green,"<br>Trail Name: Lake <br>Description: Goes along the undeveloped side of Laurel Lake past marches, inlets, and a variety of wildlife."
+Laurel Branch,Dickenson County,1.25,37.29603,-82.30794,Good,green,<br>Trail Name: Laurel Branch <br>Description: Trail follows the Laurel Branch Stream and goes to an interesting rock formation called the Notches.
+Clinchfield Overlook,Dickenson County,?,37.28636,-82.30472,Good,green,<br>Trail Name: Clinchfield Overlook <br>Description: Takes you out to Clinchfield Overlook.
+Cardiac Hill Connector,Dickenson County,L,37.29052,-82.28817,Good,green,<br>Trail Name: Cardiac Hill Connector <br>Description: 
+Prospector,Dickenson County,1.5,37.28512,-82.30308,Good,green,<br>Trail Name: Prospector <br>Description: Trail follows the base of the cliffs about 350 feet beneath the major overlooks.
+River,Dickenson County,1,37.29006,-82.30945,Good,green,"<br>Trail Name: River <br>Description: Upper half is extremely steep and rugged, the last portion has a gentler grade along the river."
+Grassy Overlook,Dickenson County,0.5,37.29378,-82.30343,Good,green,<br>Trail Name: Grassy Overlook <br>Description: Trail travels a steady uphill grade from the Laurel Branch Trail to a little used overlook area.
+Beaver Pond,Dickenson County,K,37.29729,-82.29288,Good,green,<br>Trail Name: Beaver Pond <br>Description: Trail circles Beaver Pond and back onto Deer Trail.
+Deer,Dickenson County,0.3,37.29608,-82.2943,Good,green,<br>Trail Name: Deer <br>Description: Trail takes you through the woods to Beaver Pond.
+X Cave,Carter County,?,38.37772,-83.12186,Good,green,<br>Trail Name: X Cave <br>Description: Short path leading to the X Cave.
+Natural Bridge,Carter County,0.5,38.37735,-83.12343,Good,green,<br>Trail Name: Natural Bridge <br>Description: Trail passes through an impressive natural bridge.
+Laurel Cave,Carter County,?,38.37493,-83.11543,Good,green,<br>Trail Name: Laurel Cave <br>Description: Short path leading to Laurel Cave.
+Raven Bridge,Carter County,0.7,38.36906,-83.12279,Good,green,<br>Trail Name: Raven Bridge <br>Description: Trail is fairly level and takes you to Raven Bridge.
+Rock House,Carter County,0.2,38.36922,-83.12075,Good,green,<br>Trail Name: Rock House <br>Description: Trail connects the Raven Bridge Trail and the Three Bridges Trail.
+Three Bridges,Carter County,3.5,38.3685,-83.12554,Good,green,"<br>Trail Name: Three Bridges <br>Description: The trail takes you along the Smokey Bridge, Raven Bridge, and Fern Bridge."
+4C'S/Maintenance Connector,Carter County,:,38.3814,-83.13286,Good,green,<br>Trail Name: 4C'S/Maintenance Connector <br>Description: Connector trail from the Maintenance building to the 4C's Trail.
+4C'S,Carter County,7.5,38.3668,-83.13149,Good,green,<br>Trail Name: 4C'S <br>Description: Trail passes through the Shangra La Arch and runs parallel to Smokey Valley Lake.
+Connector to Old Homestead,Carter County,?,38.36499,-83.13851,Good,green,<br>Trail Name: Connector to Old Homestead <br>Description: Short path leading to the Old Homestead.
+Kiser Hollow,Carter County,10,38.36649,-83.13801,Good,green,<br>Trail Name: Kiser Hollow <br>Description: The trail is hilly and portions are in very remote areas.
+Kiser Hollow/4C'S,Carter County,?,38.37726,-83.13873,Good,green,<br>Trail Name: Kiser Hollow/4C'S <br>Description: 
+Wildcat,Taylor County,0.5,37.2828,-85.34603,Fair,orange,<br>Trail Name: Wildcat <br>Description: Spur trail off the North Trail.
+Wildflower,Muhlenberg County,0.25,37.07636,-87.03794,Good,green,"<br>Trail Name: Wildflower <br>Description: Starts near the lower lake shelter, continues uphill to the park road at the park entrance"
+Battleship Rock,Powell County,0.75,37.77604,-83.68169,Good,green,<br>Trail Name: Battleship Rock <br>Description: Meandered through the woods and connected back with The Original Trail.
+Beginners Loop,Floyd County,3,37.71632,-82.7289,Fair,orange,<br>Trail Name: Beginners Loop <br>Description: Mountain bike trails.
+Lakeshore Trail,Floyd County,2.5,37.69232,-82.71327,Good,green,<br>Trail Name: Lakeshore Trail <br>Description: Follows along the lake for some scenic views.
+Stable,Trigg County,1.6,36.84411,-87.91364,Good,green,<br>Trail Name: Stable <br>Description: Trail meandering through the woods that circles around the stables.
+Carpenter's Run Trail Connecter,Greenup County,?,38.4951,-82.8832,Good,green,<br>Trail Name: Carpenter's Run Trail Connecter <br>Description: Connect Carpenter's Run and Clay Lick Loop
+Clay Lick Loop,Greenup County,7,38.48664,-82.88605,Good,green,<br>Trail Name: Clay Lick Loop <br>Description: Circles through the woods and down towards the lake.
+Fern Valley Trail,Greenup County,1.1,38.48057,-82.87162,Good,green,<br>Trail Name: Fern Valley Trail <br>Description: Short trail that meanders by the lake behind the lodge.
+Carpenter's Run,Greenup County,10,38.50008,-82.91593,Good,green,<br>Trail Name: Carpenter's Run <br>Description: Follows forest ridgelines and descends down toward the lake.
+Access to Original Trail,Powell County,,37.77645,-83.68099,Good,green,<br>Trail Name: Access to Original Trail <br>Description: Sidewalk and Stairways
+Access to Trail System,Powell County,,37.77558,-83.68019,Good,green,<br>Trail Name: Access to Trail System <br>Description: Sidewalk and Stairways
+ ,Powell County, ,37.77573,-83.68192,Good,green,<br>Trail Name:   <br>Description: Maintenance access
+Chickasaw,Marshall County,0.7,36.76369,-88.14154,Good,green,<br>Trail Name: Chickasaw <br>Description: Trail goes through wooded terrain.
+Nature Haven,Harlan County,0.9,36.99195,-82.9918,Good,green,<br>Trail Name: Nature Haven <br>Description: Trail meanders through the woods.
+Connector,Harlan County,?,36.99348,-82.98989,Good,green,<br>Trail Name: Connector <br>Description: Trail connects Nature Haven with Ivy and Raven's Rock
+Scenic Overlook,Harlan County,?,36.99519,-82.98327,Good,green,<br>Trail Name: Scenic Overlook <br>Description: Trail goes a short distance to an overlook.
+Raven's Rock,Harlan County,0.5,36.99484,-82.98677,Good,green,<br>Trail Name: Raven's Rock <br>Description: Trail meanders through the woods.
+Groundhog,Harlan County,0.25,36.9957,-82.98166,Good,green,<br>Trail Name: Groundhog <br>Description: Trail meanders through the woods.
+Saltess,Harlan County,0.25,36.9977,-82.9815,Good,green,<br>Trail Name: Saltess <br>Description: Trail meanders through the woods.
+12 O'Clock,Harlan County,0.1,36.99773,-82.98283,Good,green,<br>Trail Name: 12 O'Clock <br>Description: Trail goes up to the 12 O'Clock Overlook.
+Pine,Harlan County,0.4,36.99448,-82.97927,Good,green,<br>Trail Name: Pine <br>Description: Trail meanders through the woods.
+Cold Spring,Dickenson County,0.5,37.28699,-82.30111,Good,green,<br>Trail Name: Cold Spring <br>Description: Trail follows a streambed from the Cold Spring to the Laurel Branch Trail.
+Center Creek,Dickenson County,0.5,37.29855,-82.30863,Good,green,<br>Trail Name: Center Creek <br>Description: Trail follows Center Creek until it junctions with Grassy Creek Trail.
+Grassy Creek,Dickenson County,0.5,37.29588,-82.31407,Good,green,<br>Trail Name: Grassy Creek <br>Description: Trail follows Grassy Creek to its junction with the Russel Fork River.
+Tower Tunnel,Dickenson County,0.2,37.28619,-82.30342,Good,green,<br>Trail Name: Tower Tunnel <br>Description: Trail has a moderate grade that leads to the Tower Tunnel Overlook.
+Loop,Dickenson County,0.4,37.2853,-82.30312,Good,green,<br>Trail Name: Loop <br>Description: Trail follows an abandoned road from Shelter No. 2 to a natural spring.
+No Name,Dickenson County,?,37.28674,-82.29514,Good,green,<br>Trail Name: No Name <br>Description: Follows along the road until it connects with the Overlook Trail.
+Geological & Ridge,Dickenson County,?,37.29317,-82.30816,Good,green,<br>Trail Name: Geological & Ridge <br>Description: Connects the Geological and RidgeTrail.
+Geological,Dickenson County,0.35,37.29309,-82.308,Good,green,<br>Trail Name: Geological <br>Description: Trail goes through the woods and features many interesting rock formations.
+Ridge,Dickenson County,0.5,37.29256,-82.30778,Good,green,<br>Trail Name: Ridge <br>Description: Trail crosses the top of a ridge covered with hardwoods and laurel and is good for bird watching.
+Overlook,Dickenson County,0.75,37.28663,-82.30477,Good,green,<br>Trail Name: Overlook <br>Description: Trail goes through the woods with continuous views of the canyon.
+Stateline Overlook,Dickenson County,?,37.29294,-82.30827,Good,green,<br>Trail Name: Stateline Overlook <br>Description: Takes you to the Stateline Overlook.
+Cardiac Hill,Dickenson County,:,37.2925,-82.29198,Good,green,<br>Trail Name: Cardiac Hill <br>Description: Short steep climb up ridge
+Rattle Snake/Cardiac Hill Connector,Dickenson County,L,37.29201,-82.28851,Good,green,<br>Trail Name: Rattle Snake/Cardiac Hill Connector <br>Description: 
+Rattle Snake,Dickenson County,:,37.29394,-82.28662,Good,green,<br>Trail Name: Rattle Snake <br>Description: Meandering trail through woodland with some steep grades
+Main,Dickenson County,L,37.29307,-82.29472,Good,green,<br>Trail Name: Main <br>Description: 
+Ladies Loop,Dickenson County,?,37.29309,-82.29395,Good,green,<br>Trail Name: Ladies Loop <br>Description: Easy wooded trail passing through old homestead
+Ladies Loop/Green,Dickenson County,?,37.2936,-82.29157,Good,green,<br>Trail Name: Ladies Loop/Green <br>Description: Easy wooded trail passing through old homestead
+Box Canyon,Carter County,0.75,38.35551,-83.11169,Good,green,"<br>Trail Name: Box Canyon <br>Description: Trail passes the Cascade natural bridge, the Box Canyon, and the wind tunnel."
+Cascade Cave Access,Carter County,?,38.35529,-83.11193,Good,green,<br>Trail Name: Cascade Cave Access <br>Description: Path to Cascade Cave
+Cascade Cave Access,Carter County,?,38.35531,-83.1119,Good,green,<br>Trail Name: Cascade Cave Access <br>Description: Path to Cascade Cave
+Turkey Bluff,Taylor County,1.5,37.28348,-85.33209,Fair,orange,<br>Trail Name: Turkey Bluff <br>Description: Spur trail off the North Trail.
+Laurel,Harlan County,??,36.99063,-82.98479,Good,green,<br>Trail Name: Laurel <br>Description: Trail meanders through the woods.
+Lake,Harlan County,0.25,36.99063,-82.98479,Good,green,<br>Trail Name: Lake <br>Description: Trail meanders through the woods.
+Honeymoon Falls,Bell County,1.5,36.7367,-83.73723,Good,green,<br>Trail Name: Honeymoon Falls <br>Description: Trail acends a mountain stream and passes through lush growths of rhododendron.
+Living Stairway,Bell County,0.5,36.73714,-83.73697,Good,green,<br>Trail Name: Living Stairway <br>Description: Goes to the large tulip poplar that was once used as a staircase over a sandstone bluff.
+Racer Ridge,Trigg County,1.2,36.84643,-87.91002,Good,green,<br>Trail Name: Racer Ridge <br>Description: Trail is mostly for mountain bikers and travels through a scenic valley section.
+High Water,Trigg County,?,36.85277,-87.9289,Good,green,<br>Trail Name: High Water <br>Description: An alternate route when water levels are high.
+Sheltowee Trace,McCreary County,?,36.83513,-84.34007,Good,green,<br>Trail Name: Sheltowee Trace <br>Description: Trail runs along the Cumberland River.
+Lindsey Wilson,Taylor County,1,37.2763,-85.33293,,,<br>Trail Name: Lindsey Wilson <br>Description: Steep trail to lakeshore
+Marina-Main,Taylor County,4.5,37.25966,-85.34214,Fair,orange,<br>Trail Name: Marina-Main <br>Description: Trail starts at the boat ramp and proceeds west to the Bike Parking Area.
+Moonshiner's Hollow,Perry County,1.5,37.30643,-83.44479,Fair,orange,<br>Trail Name: Moonshiner's Hollow <br>Description: An interpretive trail describing the nature of the area.
+Fox Hollow/Marina Main Connector,Taylor County,0.25,37.2774,-85.32747,,,<br>Trail Name: Fox Hollow/Marina Main Connector <br>Description: B
+By Pass,Taylor County,1.5,37.27171,-85.32751,,,<br>Trail Name: By Pass <br>Description: 
+Fire Rd,Taylor County,1.5,37.26994,-85.32779,,,<br>Trail Name: Fire Rd <br>Description: 
+Lakeshore,Taylor County,1.5,37.26938,-85.32943,,,<br>Trail Name: Lakeshore <br>Description: Long loop hike hugging shoreline
+Connector,Pendleton County, ,38.72151,-84.28044,,,<br>Trail Name: Connector <br>Description:  
+Stables,Taylor County,?,37.28485,-85.34291,Fair,orange,<br>Trail Name: Stables <br>Description: Spur trail off the North Trail up to the Stables.
+Devil's Canyon,Taylor County,0.5,37.28159,-85.33692,Fair,orange,<br>Trail Name: Devil's Canyon <br>Description: Spur trail off the North Trail.
+Rocky Bluff Spur,Taylor County,0.5,37.28341,-85.33199,Fair,orange,<br>Trail Name: Rocky Bluff Spur <br>Description: Spur trail off the North Trail.
+Shofner Loop,Taylor County,1,37.28062,-85.344,Fair,orange,<br>Trail Name: Shofner Loop <br>Description: Spur trail off the North Trail.
+North,Taylor County,2,37.27736,-85.34164,Fair,orange,<br>Trail Name: North <br>Description: Trail starts near park office and goes north then northeast.
+Ranger,Taylor County,1.5,37.27913,-85.34247,Fair,orange,<br>Trail Name: Ranger <br>Description: Spur trail off the North Trail.
+Pioneer Forage-Self Guided,Madison County,DDF,37.8963,-84.26801,Fair,orange,<br>Trail Name: Pioneer Forage-Self Guided <br>Description: Leads to shelter 4 p.lot.
+Hemlock Garden,Bell County,0.75,36.73428,-83.74107,Good,green,"<br>Trail Name: Hemlock Garden <br>Description: Path descends down into a wooded ravine, where the trail meanders along a woodland stream."
+Cabin,Taylor County,1,37.26199,-85.34254,Fair,orange,<br>Trail Name: Cabin <br>Description: Spur trail off the Marina Main Trail.
+Shipp,Taylor County,2,37.26378,-85.3419,Fair,orange,<br>Trail Name: Shipp <br>Description: Spur trail off the Marina Main Trail.
+Cobee's,Taylor County,1,37.27671,-85.34151,Fair,orange,<br>Trail Name: Cobee's <br>Description: Spur trail off the Marina Main Trail.
+Windy Ridge,Taylor County,1,37.27556,-85.32043,Fair,orange,<br>Trail Name: Windy Ridge <br>Description: Trail starts near the miniature golf course and meanders along Windy Ridge.
+No.12,Whitley County,1.25,36.84126,-84.33929,Good,green,<br>Trail Name: No.12 <br>Description: Connects with trail 1.
+No. 3,Whitley County,0.25,36.83804,-84.3408,Good,green,<br>Trail Name: No. 3 <br>Description: From Cabins to Falls parking lot.
+Coralberry,Boone County,2,38.87868,-84.74162,Good,green,<br>Trail Name: Coralberry <br>Description: Loop trail that circles the lake and passes along park boundary.
+Coralberry-Old Section,Boone County,0.3,38.8787,-84.74159,Fair,orange,"<br>Trail Name: Coralberry-Old Section <br>Description: Old section of Coralberry, not in use anymore."
+Connection to Trail 2,Whitley County,0.1,36.83931,-84.33301,Good,green,<br>Trail Name: Connection to Trail 2 <br>Description: Leads down hill to connect with Trail 2.
+Gazebo Spur off Trail 11,Whitley County,0.1,36.84401,-84.33002,Good,green,<br>Trail Name: Gazebo Spur off Trail 11 <br>Description: Short hike to a gazebo with great views of the park.
+Boones Trace,Laurel County,2.3,37.08132,-84.04666,Good,green,<br>Trail Name: Boones Trace <br>Description: From campground to near McHargue Mill.
+McHargue Mill,Laurel County,0.9,37.08177,-84.04533,Good,green,<br>Trail Name: McHargue Mill <br>Description: New trail that leads to the mill.
+"Wilderness Road, Private",Laurel County,0.1,37.07342,-84.03881,Good,green,"<br>Trail Name: Wilderness Road, Private <br>Description: Leads to Freeman Cemetery."
+4H Trail,Laurel County,0.5,37.07845,-84.03447,Good,green,<br>Trail Name: 4H Trail <br>Description: Leads to Jackson Family Cemetary.
+Cindy Cave Spur,Cumberland County,x,36.6475,-85.2872,Good,green,<br>Trail Name: Cindy Cave Spur <br>Description: Spur off Eagle Point that leads to a small cave in the woods.
+Boom Ridge-Eagle Point Connector,Cumberland County,0.2,36.64262,-85.29153,Good,green,<br>Trail Name: Boom Ridge-Eagle Point Connector <br>Description: Connector trail for Eagle Point and Boom Ridge.
+Boom Ridge,Cumberland County,8,36.63073,-85.30379,Fair,orange,<br>Trail Name: Boom Ridge <br>Description: Follows ridgeline through the woods with views of the hollows.
+Hoots Branch,Cumberland County,1.2,36.64893,-85.29568,Fair,orange,<br>Trail Name: Hoots Branch <br>Description: Short out and back from the Boom Ridge Trail.
+Gobblers Trace,Boone County,0.5,38.88373,-84.75248,Good,green,<br>Trail Name: Gobblers Trace <br>Description: Leads from campground to museum area.
+Cedar Grove,Trigg County,1.5,36.8553,-87.92508,Good,green,<br>Trail Name: Cedar Grove <br>Description: Trail that meanders through the woods along Lake Barkley.
+Wagon Wheel,Trigg County,0.3,36.85695,-87.92305,Good,green,<br>Trail Name: Wagon Wheel <br>Description: Trail serves as an access to the beach area for camping guests.
+Wilderness,Trigg County,2.9,36.85565,-87.91908,Good,green,<br>Trail Name: Wilderness <br>Description: Trail leads from the stables back to the Lodge area.
+Stonewall Jackson,Monroe County,0.1,36.67817,-85.70803,Good,green,<br>Trail Name: Stonewall Jackson <br>Description: Small trail leads down to Jackson cemetery.
+Waveland Loop,Fayette County,0.25,37.97203,-84.53767,Good,green,<br>Trail Name: Waveland Loop <br>Description: Short loop walk past waveland pond.
+Camper's Trace,Christian County,0.2,37.07505,-87.65531,Good,green,<br>Trail Name: Camper's Trace <br>Description: 
+Pennyrile Nature,Christian County,1.1,37.08406,-87.66559,Good,green,<br>Trail Name: Pennyrile Nature <br>Description: 
+Indian Bluff,Christian County,0.4,37.07512,-87.667,Good,green,<br>Trail Name: Indian Bluff <br>Description: 
+Fishermans Rock,Christian County,0.1,37.06938,-87.66469,Good,green,<br>Trail Name: Fishermans Rock <br>Description: 
+Lake,Christian County,1.9,37.06996,-87.66532,Good,green,<br>Trail Name: Lake <br>Description: 
+Thompson's Hollow,Christian County,0.1,37.07071,-87.66061,Good,green,<br>Trail Name: Thompson's Hollow <br>Description: 
+Pennyroyal,Christian County,1,37.06534,-87.66262,Good,green,<br>Trail Name: Pennyroyal <br>Description: 
+Clifty Creek,Christian County,0.25,37.07501,-87.66676,Good,green,<br>Trail Name: Clifty Creek <br>Description: 
+Wood's Walk,Ballard County,0.1,36.97155,-89.0918,Good,green,<br>Trail Name: Wood's Walk <br>Description: Easy walk in the woods.
+Walking Trail,Grayson County,0.9,37.61319,-86.50187,Good,green,<br>Trail Name: Walking Trail <br>Description: Around Mini Golf Course.
+Dewey Overlook,Floyd County,0.25,37.70777,-82.7411,Good,green,<br>Trail Name: Dewey Overlook <br>Description: Leads from the Jenny Wiley Trail to an overlook of the lake near the old ski lift.
+Goble Cemetary Loop,Floyd County,0.2,37.71548,-82.74392,Good,green,<br>Trail Name: Goble Cemetary Loop <br>Description: Passes by a couple of cemetaries in the woods.
+Lakeside Spur,Floyd County,?,37.69791,-82.7233,Good,green,<br>Trail Name: Lakeside Spur <br>Description:  
+Short Loop,Floyd County,3,37.71612,-82.72558,Good,green,<br>Trail Name: Short Loop <br>Description: Mountain bike trails.
+Museum,Henderson County,0.1,37.88325,-87.55674,Fair,orange,<br>Trail Name: Museum <br>Description: Asphalt trail leads deer ridge trail and  wayside exhibits of natural flora and fauna.
+Kentucky Coffee Tree,Henderson County,0.25,37.88358,-87.55321,Fair,orange,<br>Trail Name: Kentucky Coffee Tree <br>Description: Meanders through ky coffee and other native tree species.
+Scenic Overlook ,Henderson County,0.2,37.88366,-87.55229,Fair,orange,<br>Trail Name: Scenic Overlook  <br>Description: Short spur off wilderness trail offers spectacular views of lake.
+Backcountry Trail,Henderson County,1.4,37.88205,-87.54884,Fair,orange,<br>Trail Name: Backcountry Trail <br>Description: Extends to the outer boundaries of the park. 
+Boones Trace,Laurel County,2.3,37.07874,-84.0436,Good,green,<br>Trail Name: Boones Trace <br>Description: Short loop trail from camp entrance to pool area.
+Maney,Boyle County,0.4,37.67448,-84.97491,Good,green,<br>Trail Name: Maney <br>Description: Traces routes used during the Battle of Perryville.
+Rousseau,Boyle County,0.8,37.66697,-84.97192,Good,green,<br>Trail Name: Rousseau <br>Description: Traces routes used during the Battle of Perryville.
+Dye House,Boyle County,0.4,37.66417,-84.96226,Good,green,<br>Trail Name: Dye House <br>Description: Traces routes used during the Battle of Perryville.
+Semple,Boyle County,0.5,37.66385,-84.95885,Good,green,<br>Trail Name: Semple <br>Description: Traces routes used during the Battle of Perryville.
+Sleettown Loop,Boyle County,0.7,37.66522,-84.96897,Good,green,<br>Trail Name: Sleettown Loop <br>Description: Traces routes used during the Battle of Perryville.
+Darden,Boyle County,0.5,37.66621,-84.96482,Good,green,<br>Trail Name: Darden <br>Description: Traces routes used during the Battle of Perryville.
+Lytle,Boyle County,0.4,37.66575,-84.97025,Good,green,<br>Trail Name: Lytle <br>Description: Traces routes used during the Battle of Perryville.
+Doctors Creek,Boyle County,0.5,37.66575,-84.97025,Good,green,<br>Trail Name: Doctors Creek <br>Description: Traces routes used during the Battle of Perryville.
+Donelson,Boyle County,0.5,37.67502,-84.96732,Good,green,<br>Trail Name: Donelson <br>Description: Traces routes used during the Battle of Perryville.
+Lodge,Taylor County,1.5,37.26761,-85.33993,Fair,orange,<br>Trail Name: Lodge <br>Description: Spur trail off the Marina Main Trail.
+Renegade/Lakeshore?,Taylor County,1.5,37.26976,-85.32618,,,<br>Trail Name: Renegade/Lakeshore? <br>Description: 
+Fox Hollow,Taylor County,0.25,37.27728,-85.32737,,,<br>Trail Name: Fox Hollow <br>Description: B
+Scenic Overlook,Taylor County,1,37.27581,-85.32449,,,<br>Trail Name: Scenic Overlook <br>Description: Provides many panoramas of lake
+Hall's Hill,Taylor County,0.5,37.27227,-85.33745,,,<br>Trail Name: Hall's Hill <br>Description: B
+Pat's Loop,Taylor County,1,37.2772,-85.33224,,,<br>Trail Name: Pat's Loop <br>Description: Moderate loop hike through woods
+Connector,Taylor County,1,37.27691,-85.33214,,,<br>Trail Name: Connector <br>Description: 
+Rex,Taylor County,0.5,37.27736,-85.33194,,,<br>Trail Name: Rex <br>Description: 
+Connector,Taylor County,1.5,37.27638,-85.32786,,,<br>Trail Name: Connector <br>Description: 
+Renegade,Pendleton County,1.5,38.72328,-84.28238,Good,green,<br>Trail Name: Renegade <br>Description: Leads through the woods and meaders near a small stream.
+Iron Wood Trail,Pendleton County,1.5,38.72422,-84.28359,Good,green,<br>Trail Name: Iron Wood Trail <br>Description: Leads through the woods and meaders near a small stream.
+Steve Brackett Memorial Trail,Floyd County,1,37.69247,-82.71887,Fair,orange,<br>Trail Name: Steve Brackett Memorial Trail <br>Description: Moderately difficult trail the meaders through the woods.
+Renegade,Greenup County, ,38.49481,-82.89083,,,<br>Trail Name: Renegade <br>Description:  
+Michael Tygart Loop,Greenup County,7,38.48224,-82.88638,Good,green,<br>Trail Name: Michael Tygart Loop <br>Description: Meanders through the woods and along creeks down by the lake.
+Big Bone Creek,Boone County,0.9,38.88448,-84.75276,Good,green,<br>Trail Name: Big Bone Creek <br>Description: Walking trail near the museum with displays and signs about the area.
+Peter's Creek,Barren County,?,36.86143,-86.05688,Good,green,<br>Trail Name: Peter's Creek <br>Description: 
+Renegade,Carter County, ,38.36445,-83.13787,,,<br>Trail Name: Renegade <br>Description:  
+Narrows Overlook,Bell County,0.5,36.74319,-83.68842,Fair,orange,<br>Trail Name: Narrows Overlook <br>Description: Follows route to impressive overlook
+Ridgerunner,Bell County,2,36.73986,-83.73987,Good,green,<br>Trail Name: Ridgerunner <br>Description: This trail explores an upland forest ridge typical of the Southern Appalachians.
+Ridgerunner-Alternate Route,Bell County,?,36.74356,-83.73872,Good,green,<br>Trail Name: Ridgerunner-Alternate Route <br>Description: Steep trail connecting ridge runner
+Laurel Cove,Bell County,1.75,36.7487,-83.7031,Good,green,<br>Trail Name: Laurel Cove <br>Description: The trail scales the mountain from top to bottom.
+Bison Trace,Boone County,?,38.88374,-84.75258,,,<br>Trail Name: Bison Trace <br>Description: ?
+Ranger Trail,Clinton County,7.1,36.65626,-85.28182,Good,green,<br>Trail Name: Ranger Trail <br>Description: Easy loop trail near the campground that connects with some of the other trails.
+Wetlands,,,37.89419,-87.53958,Good,green,<br>Trail Name: Wetlands <br>Description: 
+Wetlands,Henderson County,,37.88991,-87.53984,Good,green,<br>Trail Name: Wetlands <br>Description: 
+Deer Creek,Taylor County,2,37.28121,-85.34131,Fair,orange,<br>Trail Name: Deer Creek <br>Description: Spur trail off the North Trail.
+Deer Creek,Taylor County,2,37.27871,-85.33042,Fair,orange,<br>Trail Name: Deer Creek <br>Description: Spur trail off the North Trail.
+Maybe new Deer Creek?,Taylor County,,37.27871,-85.33042,,,<br>Trail Name: Maybe new Deer Creek? <br>Description: 
+Blue Heron,Muhlenberg County,1.5,37.07637,-87.05592,Good,green,"<br>Trail Name: Blue Heron <br>Description: Starts at end of Twisted Tree, skirts ridge above lake, ends at Twisted Tree waterfall picnic area"
+Turkey Ridge,Muhlenberg County,0.6,37.07637,-87.05592,Good,green,"<br>Trail Name: Turkey Ridge <br>Description: Starts at end of Twisted Tree, loops through hilly wooded area, ends back at beginning"
+Laurel,Muhlenberg County,1.5,37.07393,-87.03802,Good,green,<br>Trail Name: Laurel <br>Description: Connects campground area with lower lake shelter. Scenic views of lake and rock walls
+Dawkins Line Rail Trail,Johnson County,36,37.77782,-82.80209,Good,green,"<br>Trail Name: Dawkins Line Rail Trail <br>Description: Follows an old railroad bed from Hagerhill to Evanston, featuring the Gun Creek Tunnel"
+Dawkins Line Rail Trail Jenny's Creek Connector,Johnson County,0,37.7847,-82.83628,Good,green,<br>Trail Name: Dawkins Line Rail Trail Jenny's Creek Connector <br>Description: Connects Dawkins Line Rail Trail and Jenny's Creek trailhead
+Pine Mountain State Scenic Trail,Wise County,15,37.15496,-82.63272,,,<br>Trail Name: Pine Mountain State Scenic Trail <br>Description: Highlands Section. US 23 at Pound Gap to US 119
+Pine Mountain State Scenic Trail,,26,37.15692,-82.63058,,,<br>Trail Name: Pine Mountain State Scenic Trail <br>Description: Birch Knob Section. Breaks Interstate Park to US 23 at Pound Gap
+Horn Hollow,Carter County,1.5,38.37756,-83.12209,Good,green,<br>Trail Name: Horn Hollow <br>Description: This is a loop trail that runs through the Cave Branch valley.
+Twisted Tree,Muhlenberg County,0.75,37.07661,-87.04723,Good,green,"<br>Trail Name: Twisted Tree <br>Description: Starts at Laurel, passes scenic waterfalls with picnic areas, ends at Blue Heron and Turkey Ridge jct"
+Lakeside,Powell County,0.25,37.7774,-83.67704,Good,green,<br>Trail Name: Lakeside <br>Description: Meandered along a lake below the lodge.

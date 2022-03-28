@@ -1,1 +1,1 @@
-# KentuckyTrailsSite
+# HikingTrailsSearchSite - Python\Data Analytics Project
