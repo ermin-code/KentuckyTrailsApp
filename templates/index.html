@@ -26,36 +26,36 @@
                     <style>
                         #map_55e1f214130a4721856965d963072fe6 {
                             position: relative;
-                            width: 100.0%;
-                            height: 100.0%;
+                            width: 150.0%;
+                            height: 150.0%;
                             left: 0.0%;
                             top: 0.0%;
                         }
                     </style>         
         </head>
 
-	<body>
-        <center>  
-<br>
-<br>
-<br>
+	<body style="background-color:#a6a797;" >
+        <center>
+            <div style="background-color:#554a38; margin-top:-25px;">
+                <div style="padding-top:30px;">
+                <h1 style="font-size:65px; color:white; ">Kentucky Trails Search</h1>
+                </div>
+            </div>
+            <br>
             <div>  
                 <form class="grid" action="../result" method="POST">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <text style="font-size:22px">Enter name of the trail</test>
+
+                    <text style="font-size:26px">Enter name of the trail: </test>
                     <input type="text" id="name" name="name">
                     <input class="file_submit" type="Submit">
                     <br></br>
-                    <br></br>
-            
+                    
                     {% if name %}
                     <center>
-                        <text><h3>Length of {{name}} trail is {{leng}} miles</h3></text>
+                        <text><h3 style="font-size:26px;">Length of {{name}} trail is {{leng}} miles and it is located in {{county}}.</h3></text>
                     </center> 
-    
-                    <div style="width:50%; height:50%" >
+                    <br>
+                    <div style="width:65%; height:60%" >
                         {% extends "layout.html" %}
                         {% block title %} {% endblock %}
                         {% block head %} {{ super() }} {% endblock %}
@@ -67,7 +67,7 @@
                     {% endif %}
                     {% if nonname %}
                         <center>
-                            <text><h3>{{nonname}} </h3></text>
+                            <text><h3 style="font-size:30px; color:red;">{{nonname}} </h3></text>
                         </center>  
                     {%endif %}
                 </form>

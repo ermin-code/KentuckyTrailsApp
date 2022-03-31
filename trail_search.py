@@ -3,6 +3,9 @@ import csv
 import folium 
 import pandas as pd
 import sys
+import webbrowser
+from waitress import serve
+
 
 app = Flask(__name__)
 
@@ -34,6 +37,7 @@ def result():
             for x in range(0,len(data)):
                 if name == data[x][0]:
                     leng = data[x][2]
+                    county = data[x][1]
                     
                     start_coords = (data[x][3],data[x][4])
 
@@ -46,17 +50,18 @@ def result():
 
             folium_map.save('templates/map.html')
 
-            return render_template('index.html', name = name,leng = leng)
+            return render_template('index.html', name = name,leng = leng, county = county)
         
 
         else:
 
             nonname = "No trail found!"
             return render_template('index.html',nonname = nonname)
-            
+
     
 if __name__ == "__main__":
-    app.run(debug=True,port=5001)
+
+    webbrowser.open_new('http://127.0.0.1:5000/')
+    serve(app, host="127.0.0.1", port=5000)
+
     
-
-

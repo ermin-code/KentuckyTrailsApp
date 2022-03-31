@@ -3,14 +3,14 @@ mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2Uxbz
 
 import pandas as pd
 import numpy as np
-import dash                    
+import dash                     #(version 1.0.0)
 import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import plotly.offline as py     
+
+import plotly.offline as py     #(version 4.4.1)
 import plotly.graph_objs as go
-import webbrowser
 
 
 df = pd.read_csv("kentuckytrails.csv")
@@ -41,7 +41,7 @@ app.layout = html.Div([
                 html.Li("Nan", className='circle', style={'background': 'black','color':'black',
                     'list-style':'none','text-indent': '17px'}),
 
-            ], style={'border-bottom': 'solid 3px', 'border-color':'black','padding-top': '6px'}
+            ], style={'border-bottom': 'solid 3px', 'border-color':'#00FC87','padding-top': '6px'}
             ),
 
             # County_checklist
@@ -53,7 +53,7 @@ app.layout = html.Div([
 
             # Trail_Condition_checklist
             html.Label(children=['Trail Condition: '], style=blackbold),
-            dcc.Checklist(id='maintenance',
+            dcc.Checklist(id='recycling_maintenance',
                     options=[{'label':str(b),'value':b} for b in sorted(df['maintenance'].unique())],
                     value=[b for b in sorted(df['maintenance'].unique())],
             ),
@@ -64,7 +64,7 @@ app.layout = html.Div([
         # Map
         html.Div([
             dcc.Graph(id='graph', config={'displayModeBar': False, 'scrollZoom': True},
-                style={'background':'black','padding-top':'2px', 'padding-bottom':'2px','padding-left':'2px','padding-right':'2px','height':'100vh'}
+                style={'background':'#00FC87','padding-bottom':'2px','padding-left':'2px','height':'100vh'}
             )
         ], className='nine columns'
         ),
@@ -79,7 +79,7 @@ app.layout = html.Div([
 # Output of Graph
 @app.callback(Output('graph', 'figure'),
               [Input('county_name', 'value'),
-               Input('maintenance', 'value')])
+               Input('recycling_maintenance', 'value')])
 
 def update_figure(chosen_county,chosen_recycling):
     df_sub = df[(df['county'].isin(chosen_county)) &
@@ -105,7 +105,7 @@ def update_figure(chosen_county,chosen_recycling):
             clickmode= 'event+select',
             hovermode='closest',
             hoverdistance=2,
-            title=dict(text="Map of Kentucky Trails",font=dict(size=50, color='black')),
+            title=dict(text="Map of Kentucky Trails",font=dict(size=50, color='green')),
             mapbox=dict(
                 accesstoken=mapbox_access_token,
                 bearing=0,
@@ -136,8 +136,12 @@ def display_click_data(clickData):
             return html.A(the_link, href=the_link, target="_blank")
 # #--------------------------------------------------------------
 if __name__ == '__main__':
-    webbrowser.open_new('http://127.0.0.1:8050/')
     app.run_server(debug=False)
+
+   
+
+
+
 
 
 
