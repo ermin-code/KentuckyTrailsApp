@@ -1,5 +1,4 @@
 <html> 
-
 		<head>    
             <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
             
@@ -43,13 +42,14 @@
             </div>
             <br>
             <div>  
-                <form class="grid" action="../result" method="POST">
+                <form class="grid" action="../result" method="POST"> <!--form that enters and posts name of the trail--> 
 
                     <text style="font-size:26px">Enter name of the trail: </test>
                     <input type="text" id="name" name="name">
                     <input class="file_submit" type="Submit">
                     <br></br>
                     
+                    <!--recalls the python script: if name of the trail is present in csv --> 
                     {% if name %}
                     <center>
                         <text><h3 style="font-size:26px;">Length of {{name}} trail is {{leng}} miles and it is located in {{county}}.</h3></text>
@@ -63,8 +63,9 @@
                         {% include "map.html" %}
                         {% endblock %}
                     </div>
-                    
                     {% endif %}
+
+                    <!--posts no trail found! if trail name is not present in csv or if no trail name is entered but submit button is pressed --> 
                     {% if nonname %}
                         <center>
                             <text><h3 style="font-size:30px; color:red;">{{nonname}} </h3></text>
