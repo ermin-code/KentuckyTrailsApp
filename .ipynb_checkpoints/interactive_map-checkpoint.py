@@ -8,19 +8,22 @@ from dash.dependencies import Input, Output
 import plotly.offline as py     
 import plotly.graph_objs as go
 
+# token for mapbox map access
+#---------------------------------------------------------------
 mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
 
-
+# builds data frame for specific columns within csv file
+#---------------------------------------------------------------
 df = pd.read_csv("kentuckytrails.csv")
 df['county'] = [str(x) for x in df['county']]
 df['trail_name'] = [str(x) for x in df['trail_name']]
 df['maintenance'] =[str(x) for x in df['maintenance']]
+
 app = dash.Dash(__name__)
 blackbold={'color':'black', 'font-weight': 'bold'}
 app.layout = html.Div([
 
-
-# Map_legen + County_checklist + Trail_Condition_checklist + Map   
+# map_legen + county_checklist + trail_condition_checklist + map   
 #---------------------------------------------------------------
 
     html.Div([
@@ -37,26 +40,26 @@ app.layout = html.Div([
                     'list-style':'none','text-indent': '17px'}),
             ], style={'border-bottom': 'solid 3px', 'border-color':'#00FC87','padding-top': '6px'}),
 
-            # County_checklist
+            # county_checklist
             html.Label(children=['Kentucky Counties: '], style=blackbold),
             dcc.Checklist(id='county_name',
                     options=[{'label':str(b),'value':b} for b in sorted(df['county'].unique())],
                     value=[b for b in sorted(df['county'].unique())],),
 
-            # Trail_Condition_checklist
+            # trail_condition_checklist
             html.Label(children=['Trail Condition: '], style=blackbold),
             dcc.Checklist(id='recycling_maintenance',
                     options=[{'label':str(b),'value':b} for b in sorted(df['maintenance'].unique())],
                     value=[b for b in sorted(df['maintenance'].unique())],),], className='three columns'),
 
-            # Map
+            # map
             html.Div([
                 dcc.Graph(id='graph', config={'displayModeBar': False, 'scrollZoom': True},
                 style={'background':'#00FC87','padding-bottom':'2px','padding-left':'2px','height':'100vh'})], 
                 className='nine columns'),], className='row'),], className='ten columns offset-by-one')
 
 
-# Output of Graph
+# output of graph
 #---------------------------------------------------------------
 
 @app.callback(Output('graph', 'figure'),
@@ -67,7 +70,7 @@ def update_figure(chosen_county,chosen_recycling):
     df_sub = df[(df['county'].isin(chosen_county)) &
                 (df['maintenance'].isin(chosen_recycling))]
 
-    # Create figure
+    # create figure
     locations=[go.Scattermapbox(
                     lon = df_sub['longitude'],
                     lat = df_sub['latitude'],
@@ -78,7 +81,7 @@ def update_figure(chosen_county,chosen_recycling):
                     hoverinfo='text',
                     hovertext=df_sub['hov_txt'],)]
 
-    # Return figure
+    # return figure
     return {
         'data': locations,
         'layout': go.Layout(
@@ -120,7 +123,6 @@ def display_click_data(clickData):
             return html.A(the_link, href=the_link, target="_blank")
 
 #--------------------------------------------------------------
-
 if __name__ == '__main__':
     app.run_server(debug=False)
 
