@@ -7,7 +7,7 @@ This project is about presentation and analysis of data on offroad trails in Ken
 HTML interface that uses a textbox to search name of a particular trail in kentuckytrails.csv file and displays trail location on the map. It also indicates how long the trail is and in which county it is located in. If a wrong trail name is entered or if nothing is entered, a message on the page will be displayed that says 'No Trail Found!'
 
 (Part 2) - interactive_map.py file
-HTML interface that displays map of Kentucky showing all trail locations throughout the map. Each dot representing trails is color coded indicating trail condition (green - well maintained, orange - fairly maintained and red - poortly maintained). A black dot on the map indicates a trail that does not have information on its main·te·nance. On the left are selected all the counties in Kentucky that have trail information available. You can select or unselect different counties and main·te·nance conditions to narrow down the information presented on the map. 
+HTML interface that displays map of Kentucky showing all trail locations throughout the map. Each dot representing trails is color coded indicating trail condition (green - well maintained, orange - fairly maintained and red - poortly maintained). A black dot on the map indicates a trail that does not have information on its main·te·nance. On the left are selected all the counties in Kentucky that have trail information available. You can select or unselect different counties and maintenance conditions to narrow down the information presented on the map. 
 
 Please note that my personal MapBox token was hiden in .gitignore. However, you can use general public token provided by Mapbox:
 
@@ -16,7 +16,7 @@ mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2Uxbz
 Also, please note that in order to use this token, on line 99 you will need to change the code to accesstoken=mapbox_access_token from secret.accesstoken=mapbox_access_token
 
 (Part 3) - pie_chart.py file
-This is a Python script that uses Pandas and Plotly packages to display a pie chart showing percentages of well, fairly and poorly maintained trails in Kentucky. Data from kentuckytrails.csv file was processed in a way that number of trails associated with these three main·te·nance conditions were counted and percentages were calculated and displayed in this pie chart. 
+This is a Python script that uses Pandas and Plotly packages to display a pie chart showing percentages of well, fairly and poorly maintained trails in Kentucky. Data from kentuckytrails.csv file was processed in a way that number of trails associated with these three maintenance conditions were counted and percentages were calculated and displayed in this pie chart. 
 
 (Part 4) - table.py file
 This is a Python script that uses Pandas and Plotly packages to display a table showing all the included Kentucky counties in kentuckytrails.csv file and total mileage of trails in each county. Data processing from kentuckytrails.csv file was processed in a way that all the trail lengths for each county were summed up and displayed in this table.  
