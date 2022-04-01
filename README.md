@@ -13,7 +13,7 @@ Please note that my personal MapBox token was hiden in .gitignore. However, you 
 
 mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
 
-Also, please note that in order to use this token, on line 99 you will need to change the code to accesstoken=mapbox_access_token from secret.accesstoken=mapbox_access_token
+IMPORTANT: Also, please note that in order to use this token, you need to remove 'import secret' on the top and on line 99 you will need to change the code from secret.accesstoken=mapbox_access_token to accesstoken=mapbox_access_token 
 
 (Part 3) - pie_chart.py file
 This is a Python script that uses Pandas and Plotly packages to display a pie chart showing percentages of well, fairly and poorly maintained trails in Kentucky. Data from kentuckytrails.csv file was processed in a way that number of trails associated with these three maintenance conditions were counted and percentages were calculated and displayed in this pie chart. 
