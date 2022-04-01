@@ -1,6 +1,3 @@
-
-mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
-
 import pandas as pd
 import numpy as np
 import dash                    
@@ -12,13 +9,15 @@ import plotly.offline as py
 import plotly.graph_objs as go
 import webbrowser
 
+# token for mapbox map access
+#---------------------------------------------------------------
+mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
 
+# builds data frame for specific columns within csv file
+#---------------------------------------------------------------
 df = pd.read_csv("kentuckytrails.csv")
-
 df['county'] = [str(x) for x in df['county']]
-
 df['trail_name'] = [str(x) for x in df['trail_name']]
-
 df['maintenance'] =[str(x) for x in df['maintenance']]
 
 app = dash.Dash(__name__)
@@ -26,8 +25,9 @@ app = dash.Dash(__name__)
 blackbold={'color':'black', 'font-weight': 'bold'}
 
 app.layout = html.Div([
+
+# map_legend + county_checklist + trail_condition_checklist + map    
 #---------------------------------------------------------------
-# Map_legen + County_checklist + Trail_Condition_checklist + Map
     html.Div([
         html.Div([
             # Map-legend
@@ -39,44 +39,28 @@ app.layout = html.Div([
                 html.Li("Poor", className='circle', style={'background': 'red','color':'black',
                     'list-style':'none','text-indent': '17px'}),                
                 html.Li("Nan", className='circle', style={'background': 'black','color':'black',
-                    'list-style':'none','text-indent': '17px'}),
-
-            ], style={'border-bottom': 'solid 3px', 'border-color':'black','padding-top': '6px'}
-            ),
+                    'list-style':'none','text-indent': '17px'}),], style={'border-bottom': 'solid 3px', 'border-color':'black','padding-top': '6px'}),
 
             # County_checklist
             html.Label(children=['Kentucky Counties: '], style=blackbold),
             dcc.Checklist(id='county_name',
                     options=[{'label':str(b),'value':b} for b in sorted(df['county'].unique())],
-                    value=[b for b in sorted(df['county'].unique())],
-            ),
+                    value=[b for b in sorted(df['county'].unique())],),
 
             # Trail_Condition_checklist
             html.Label(children=['Trail Condition: '], style=blackbold),
             dcc.Checklist(id='maintenance',
                     options=[{'label':str(b),'value':b} for b in sorted(df['maintenance'].unique())],
-                    value=[b for b in sorted(df['maintenance'].unique())],
-            ),
+                    value=[b for b in sorted(df['maintenance'].unique())],),], className='three columns'),
 
-        ], className='three columns'
-        ),
+            # Map
+            html.Div([
+                dcc.Graph(id='graph', config={'displayModeBar': False, 'scrollZoom': True},
+                    style={'background':'black','padding-top':'2px', 'padding-bottom':'2px','padding-left':'2px','padding-right':'2px','height':'100vh'})], 
+                    className='nine columns'),], className='row'),], className='ten columns offset-by-one')
 
-        # Map
-        html.Div([
-            dcc.Graph(id='graph', config={'displayModeBar': False, 'scrollZoom': True},
-                style={'background':'black','padding-top':'2px', 'padding-bottom':'2px','padding-left':'2px','padding-right':'2px','height':'100vh'}
-            )
-        ], className='nine columns'
-        ),
-
-    ], className='row'
-    ),
-
-], className='ten columns offset-by-one'
-)
-
+# output of graph
 #---------------------------------------------------------------
-# Output of Graph
 @app.callback(Output('graph', 'figure'),
               [Input('county_name', 'value'),
                Input('maintenance', 'value')])
@@ -94,8 +78,7 @@ def update_figure(chosen_county,chosen_recycling):
                     unselected={'marker' : {'opacity':1}},
                     selected={'marker' : {'opacity':0.5, 'size':25}},
                     hoverinfo='text',
-                    hovertext=df_sub['hov_txt'],
-    )]
+                    hovertext=df_sub['hov_txt'],)]
 
     # Return figure
     return {
@@ -119,8 +102,9 @@ def update_figure(chosen_county,chosen_recycling):
             ),
         )
     }
-#---------------------------------------------------------------
+
 # callback for Web_link
+#---------------------------------------------------------------
 @app.callback(
     Output('web_link', 'children'),
     [Input('graph', 'clickData')])
@@ -134,8 +118,10 @@ def display_click_data(clickData):
             return 'No Website Available'
         else:
             return html.A(the_link, href=the_link, target="_blank")
+
 # #--------------------------------------------------------------
 if __name__ == '__main__':
+    #automatically opens web browser
     webbrowser.open_new('http://127.0.0.1:8050/')
     app.run_server(debug=False)
 
