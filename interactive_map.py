@@ -8,10 +8,18 @@ from dash.dependencies import Input, Output
 import plotly.offline as py     
 import plotly.graph_objs as go
 import webbrowser
+import secret
 
 # token for mapbox map access
 #---------------------------------------------------------------
-mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
+#IMPORTANT:
+# please note that I protected my mapbox personal token via .gitignore. however, mapbox offers 
+# general public default token that you can use to run this code by enabling it below:
+
+#mapbox_access_token = 'pk.eyJ1IjoiZXJtaW5reSIsImEiOiJjbDFiM2d1N2sxZTg2M2lud2UxbzVreXFuIn0.KPyZHRZzUN1Ib4i-IoGOrQ'
+
+# you will also need to make changes to the code in line 99. please see below. 
+
 
 # builds data frame for specific columns within csv file
 #---------------------------------------------------------------
@@ -90,7 +98,8 @@ def update_figure(chosen_county,chosen_recycling):
             hoverdistance=2,
             title=dict(text="Map of Kentucky Trails",font=dict(size=50, color='black')),
             mapbox=dict(
-                accesstoken=mapbox_access_token,
+                #to run public token, please change to accesstoken=mapbox_access_token
+                accesstoken=secret.mapbox_access_token, 
                 bearing=0,
                 style='light',
                 center=dict(
@@ -124,6 +133,3 @@ if __name__ == '__main__':
     #automatically opens web browser
     webbrowser.open_new('http://127.0.0.1:8050/')
     app.run_server(debug=False)
-
-
-
