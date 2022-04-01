@@ -22,7 +22,7 @@ This is a Python script that uses Pandas and Plotly packages to display a pie ch
 This is a Python script that uses Pandas and Plotly packages to display a table showing all the included Kentucky counties in kentuckytrails.csv file and total mileage of trails in each county. Data processing from kentuckytrails.csv file was processed in a way that all the trail lengths for each county were summed up and displayed in this table.  
 
 (Part 5) - bar_diagram.py file
-This is a Python script that uses Pandas and MathPlotLib packages to display a bar diagram showing all the included Kentucky counties in kentuckytrails.csv file and total mileage of trails in each county. Data processing from kentuckytrails.csv was processed in a way that all the trail lengths for each county were summed up and displayed in this diagram. 
+This is a Python script that uses Pandas and MatPlotLib packages to display a bar diagram showing all the included Kentucky counties in kentuckytrails.csv file and total mileage of trails in each county. Data processing from kentuckytrails.csv was processed in a way that all the trail lengths for each county were summed up and displayed in this diagram. 
 
 All four features of this project are executable individually in Visual Studio Code or through Jupyter Notebook by opening KentuckyTrails.ipynb and running each of four individual sections. Reminder: you will need to stop running Kernel every time you want to run a section. Running Kernel of previous section will prevent the next from being run. 
 
@@ -43,28 +43,7 @@ Note: JSON file was downloaded and converted to CSV file to be used in this proj
 
 This project was written in Visual Studio Code and then later adopted to be also used in Jupyter notebook. The following packages were imported in this project: 
 
-(from flask import Flask, render_template, url_for, request),
-(import csv),
-(import folium),
-(import pandas as pd),
-(import sys),
-(import webbrowser),
-(from waitress import serve),
-(import numpy as np),
-(import dash),                   
-(import dash_table),
-(import dash_core_components as dcc),
-(import dash_html_components as html),
-(from dash.dependencies import Input, Output),
-(import plotly.offline as py),     
-(import plotly.graph_objs as go),
-(import secret),
-(import plotly),         
-(import plotly.express as px),
-(import plotly.io as pio),
-(from collections import Counter),
-(import plotly.graph_objects as go),
-(import matplotlib.pyplot as plt)
+flask, folium, pandas, waitress, dash, matblotlib, plotly, numpy, webbrowser
 
 How to run this project: 
 
@@ -77,7 +56,7 @@ How to run this project:
 (pip install folium),
 (pip install flask),
 (pip install pandas),
-(pip install matplotlib.pyplot),
+(pip install matplotlib),
 (pip install dash),
 (pip install plotly),
 (pip install numpy),
