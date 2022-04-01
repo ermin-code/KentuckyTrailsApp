@@ -43,45 +43,45 @@ Note: JSON file was downloaded and converted to CSV file to be used in this proj
 
 This project was written in Visual Studio Code and then later adopted to be also used in Jupyter notebook. The following packages were imported in this project: 
 
-from flask import Flask, render_template, url_for, request
-import csv
-import folium 
-import pandas as pd
-import sys
-import webbrowser
-from waitress import serve
-import numpy as np
-import dash                    
-import dash_table
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
-import plotly.offline as py     
-import plotly.graph_objs as go
-import secret
-import plotly           
-import plotly.express as px
-import plotly.io as pio
-from collections import Counter
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
+(from flask import Flask, render_template, url_for, request),
+(import csv),
+(import folium),
+(import pandas as pd),
+(import sys),
+(import webbrowser),
+(from waitress import serve),
+(import numpy as np),
+(import dash),                   
+(import dash_table),
+(import dash_core_components as dcc),
+(import dash_html_components as html),
+(from dash.dependencies import Input, Output),
+(import plotly.offline as py),     
+(import plotly.graph_objs as go),
+(import secret),
+(import plotly),         
+(import plotly.express as px),
+(import plotly.io as pio),
+(from collections import Counter),
+(import plotly.graph_objects as go),
+(import matplotlib.pyplot as plt)
 
 How to run this project: 
 
-1. Start with .ipynb file "air quality".
+1. Start with .ipynb file "KentuckyTrails".
 2. You must install jupyter labs to run the code in the jupyter notebook (visit https://jupyterlabs.org/install) or run jupyter notebooks in a browser.
 3. Once in the jupyter notebook, navigate to the directory where you downloaded the project files. (You should see the KentuckyTrails.ipynb file  needed to run this project).
 4. Open the .ipynb file.
 5. You may need to install the above-mentioned packages. Open terminal and run the following commands to install each package:
 
-Pip install folium
-Pip install flask
-Pip install pandas
-pip install matplotlib.pyplot
-pip install dash
-pip install plotly
-pip install numpy
-pip install webbrowser
+(pip install folium),
+(pip install flask),
+(pip install pandas),
+(pip install matplotlib.pyplot),
+(pip install dash),
+(pip install plotly),
+(pip install numpy),
+(pip install webbrowser),
 
 6. Go back to the jupyter notebooks. You see we are now importing these packages. So you should be able to run the code now.
 7. Select "Kernel" (top ribbon) and restart and run all cells one by one making sure that you turns stop Kernel between each run.
