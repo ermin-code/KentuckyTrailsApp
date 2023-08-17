@@ -1,4 +1,4 @@
-# Kentucky Trails Site - Python\Data Analytics Project
+# Kentucky Trails App - Python\Data Analytics Project
 
 
 This project is about presentation and analysis of data on offroad trails in Kentucky obtained through CSV file provide by KyGovMaps Open Data Portal Government website (https://opengisdata.ky.gov/). There are more than 300 trails in the dataset. Organization of the project is best represented in KentuckyTrails.ipynb Jupyter Notebook file, however, following is the general breakdown of different python programs within the project. These individual programs can be run through Visual Studio Code provided that all the required packages are installed. Names of these packages are listed in this ReadMe file. 
